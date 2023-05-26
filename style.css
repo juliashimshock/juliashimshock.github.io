@@ -54,3 +54,8 @@ header {
     bottom: 0;
     z-index: -1;
   }
+
+  .title {
+    position: absolute;
+    text-align: center;
+  }
