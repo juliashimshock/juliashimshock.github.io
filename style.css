@@ -18,6 +18,7 @@ html, body {
 a {
   text-decoration: none !important;
   font-weight: bold;
+  color:lightsteelblue;
 }
 
 header {
@@ -31,6 +32,10 @@ header {
     background-color: #440d18;
     color:lightsteelblue;
     text-decoration: none;
+  }
+
+  #stayBlack {
+    color:black !important;
   }
 
   header * {
