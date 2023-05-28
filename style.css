@@ -34,10 +34,6 @@ header {
     text-decoration: none;
   }
 
-  #stayBlack {
-    color:black !important;
-  }
-
   header * {
     display: inline;
     height: 50px;
