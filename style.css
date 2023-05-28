@@ -1,18 +1,21 @@
 html, body {
     margin: 0;
     margin-top: 0px;
-    height: 100vh;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    background-position:center;
-    background-repeat: no-repeat;
-    background-attachment: flex;
-    background-size:auto;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+section {
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: flex;
+  background-size:auto;
 }
 
 a {
@@ -45,4 +48,20 @@ header {
   
   header li {
     margin-left: 20px;
+  }
+
+  #home {
+    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://liberalarts.vt.edu/content/dam/liberalarts_vt_edu/news/articles-2020/Victoria%20Hanna.jpg.transform/m-medium/image.jpg');
+  }
+  #bio {
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://live.stanford.edu/sites/default/files/events/VictoriaHanna.jpeg');
+  }
+  #media {
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://fll.cc/wp-content/uploads/sites/8/2015/07/jesus-open-arm-charles-bosseron.jpg');
+  }
+  #quiz {
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://www.secrettelaviv.com/wp-content/uploads/2019/08/1566825839_68713340_1386953471456020_454907259361689600_o.jpg');
   }
