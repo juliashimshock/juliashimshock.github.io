@@ -80,8 +80,7 @@ header {
   }
 
   #home {
-    background-size:cover;
-    height:fit-content;
+    height: 315px;
   }
 
   #bio {
