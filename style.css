@@ -48,7 +48,7 @@ a {
 }
 
 header a:hover {
-  color: #eaeaea;
+  color:#cccccc;
 }
 
 header {
@@ -109,3 +109,23 @@ header {
     z-index: -1;
   }
   
+  button {
+    background:#007bff;
+    color: #fff;
+    border-style: outset;
+    border-color: gold;
+    height: 30px;
+    width: 75px;
+    font-family: "Rubik", Arial, sans-serif;
+    text-shadow: none;
+  }
+  button:hover {
+    background:#005daa;
+    color: #cccccc;
+    border-style: outset;
+    border-color: gold;
+    height: 30px;
+    width: 75px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+  }
