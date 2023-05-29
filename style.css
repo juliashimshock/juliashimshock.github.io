@@ -3,6 +3,11 @@ html, body {
     margin-top: 0px;
   }
 
+  nav {
+    background-color: #007bff;
+    font-family: "Heebo", Arial, sans-serif;
+  }
+
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -39,7 +44,7 @@ section {
 a {
   text-decoration: none !important;
   font-weight: bold;
-  color:lightsteelblue;
+  color:#fff;
 }
 
 header {
@@ -69,9 +74,6 @@ header {
     margin-left: 20px;
   }
 
-  #home {
-    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://liberalarts.vt.edu/content/dam/liberalarts_vt_edu/news/articles-2020/Victoria%20Hanna.jpg.transform/m-medium/image.jpg');
-  }
   #bio {
     background-size: cover;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://live.stanford.edu/sites/default/files/events/VictoriaHanna.jpeg');
