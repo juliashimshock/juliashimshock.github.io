@@ -35,6 +35,7 @@ header {
     background-color: #440d18;
     color:lightsteelblue;
     text-decoration: none;
+    text-align: center;
   }
 
   header * {
