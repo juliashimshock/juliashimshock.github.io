@@ -9,6 +9,11 @@ html, body {
     grid-gap: 20px;
   }
 
+  ul {
+    justify-content: center;
+    text-align: center;
+  }
+
   h1 {
     font-family: "Heebo", Arial, sans-serif;
   }
