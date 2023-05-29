@@ -79,3 +79,16 @@ header {
     background-size: cover;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://www.secrettelaviv.com/wp-content/uploads/2019/08/1566825839_68713340_1386953471456020_454907259361689600_o.jpg');
   }
+
+  .homevideo {
+    position: relative;
+  }
+  
+  .homevideo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+  }

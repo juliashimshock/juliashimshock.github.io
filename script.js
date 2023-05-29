@@ -62,7 +62,9 @@ function calculate(answers) {
 
 function display(res) {
     const resRepl = document.getElementById("quiz");
-    resRepl.innerHTML = "You should listen to: ";
+    resRepl.innerHTML = "";
+    const scr = document.createElement('h1');
+    scr.textContent = "You should listen to: "
     const list = document.createElement('ul');
     res.forEach((song) => {
         const item = document.createElement('li');
