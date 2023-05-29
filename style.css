@@ -77,19 +77,20 @@ header {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://live.stanford.edu/sites/default/files/events/VictoriaHanna.jpeg');
+    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://rnz-ressh.cloudinary.com/image/upload/s--zYd9yZBS--/c_scale,f_auto,q_auto,w_1050/v1643455087/4NXXUSS_image_crop_53705');
   }
   #media {
+    background-color: #ffffff;
+    background-image: linear-gradient(45deg, #007bff, #ffffff);
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://fll.cc/wp-content/uploads/sites/8/2015/07/jesus-open-arm-charles-bosseron.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
   }
   #quiz {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://www.secrettelaviv.com/wp-content/uploads/2019/08/1566825839_68713340_1386953471456020_454907259361689600_o.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://i.ytimg.com/vi/gcnxRi0s_DM/maxresdefault.jpg');
   }
 
   #home .homevideo {
