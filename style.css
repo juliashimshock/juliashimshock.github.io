@@ -40,7 +40,7 @@ html, body {
     font-family: "Heebo", Arial, sans-serif;
   }
 
-  h2, h3, p, li {
+  h2, h3, p, li, input {
     font-family: "Rubik", Arial, sans-serif;
   }
 
@@ -90,15 +90,15 @@ header {
   }
 
   #bio {
-    background-size: cover;
+    background-size: auto;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://live.stanford.edu/sites/default/files/events/VictoriaHanna.jpeg');
   }
   #media {
-    background-size: cover;
+    background-size:auto;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://fll.cc/wp-content/uploads/sites/8/2015/07/jesus-open-arm-charles-bosseron.jpg');
   }
   #quiz {
-    background-size: cover;
+    background-size: auto;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://www.secrettelaviv.com/wp-content/uploads/2019/08/1566825839_68713340_1386953471456020_454907259361689600_o.jpg');
   }
 
