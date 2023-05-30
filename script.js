@@ -101,27 +101,3 @@ player.addEventListener('ended', function() {
     player.src += '&autoplay=1';
 }) 
 */
-
-window.addEventListener('resize', setVideoHeight);
-
-function setVideoHeight() {
-  const video = document.getElementById('player');
-  const aspectRatio = 16 / 9; // Adjust the aspect ratio as needed
-
-  const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  const screenHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-
-  let videoHeight = screenHeight;
-  let videoWidth = videoHeight * aspectRatio;
-
-  if (videoWidth < screenWidth) {
-    videoWidth = screenWidth;
-    videoHeight = videoWidth / aspectRatio;
-  }
-
-  video.style.width = `${videoWidth}px`;
-  video.style.height = `${videoHeight}px`;
-}
-
-// Call the function initially to set the initial video size
-setVideoHeight();
