@@ -92,7 +92,7 @@ header {
   }
 
   #homes #home {
-    display: flex;
+    display:block;
     justify-content: center;
     align-items: center;
     
