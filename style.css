@@ -93,7 +93,7 @@ header {
   }
   #bio {
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://rnz-ressh.cloudinary.com/image/upload/s--zYd9yZBS--/c_scale,f_auto,q_auto,w_1050/v1643455087/4NXXUSS_image_crop_53705');
   }
@@ -107,7 +107,7 @@ header {
   #quiz {
     background-size: cover;
     background-attachment: fixed;
-    background-position:top center;
+    background-position:center;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://i.ytimg.com/vi/gcnxRi0s_DM/maxresdefault.jpg');
   }
 
