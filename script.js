@@ -88,8 +88,9 @@ function display(res) {
     resRepl.appendChild(list);
     
 }
-
+/**
 var player = document.getElementById("player");
 player.addEventListener('ended', function() {
     player.src += '&autoplay=1';
 }) 
+*/
