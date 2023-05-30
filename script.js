@@ -70,6 +70,19 @@ function display(res) {
         const item = document.createElement('li');
         item.textContent = song;
         list.appendChild(item);
+        if(song === "Adir Adirim") {
+            const aa = document.createElement('iframe');
+            aa.src ="https://www.youtube.com/embed/2Dgt27ILk8g?controls=1&mute=0&autoplay=0";
+            list.appendChild(aa);
+        } else if(song === "Ani Yeshena") {
+            const aa = document.createElement('iframe');
+            aa.src ="https://www.youtube.com/embed/xPjkCu-4H9E?controls=1&mute=0&autoplay=0";
+            list.appendChild(aa);
+        } else if(song === "Aleph Bet (Hoshana)") {
+            const aa = document.createElement('iframe');
+            aa.src ="https://www.youtube.com/embed/Bl1epz3tSSA?controls=1&mute=0&autoplay=0";
+            list.appendChild(aa);
+        }
     });
     resRepl.appendChild(list);
     
