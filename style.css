@@ -15,6 +15,7 @@ html, body {
   }
 
  .center {
+  position:absolute;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -114,6 +115,22 @@ header {
     background-attachment: fixed;
     background-position:top center;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://i.ytimg.com/vi/gcnxRi0s_DM/maxresdefault.jpg');
+  }
+
+  #quiz h2 {
+    text-align: center;
+  }
+
+  #home iframe {
+    height: auto;
+    width: auto;
+  }
+
+  #quiz iframe {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   iframe {
