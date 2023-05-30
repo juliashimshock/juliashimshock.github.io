@@ -89,6 +89,8 @@ header {
     margin-left: 20px;
   }
   #bios {
+    z-index: 1;
+    position: relative;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://rnz-ressh.cloudinary.com/image/upload/s--zYd9yZBS--/c_scale,f_auto,q_auto,w_1050/v1643455087/4NXXUSS_image_crop_53705');
   }
   #medias {
@@ -102,9 +104,10 @@ header {
     text-align: center;
   }
 
-  #homes #home iframe {
-    height: 100%;
-    width: 100%;
+  #homes #home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
   }
 
