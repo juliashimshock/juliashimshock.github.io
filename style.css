@@ -99,7 +99,7 @@ header {
   #quiz {
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position:top center;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url('https://i.ytimg.com/vi/gcnxRi0s_DM/maxresdefault.jpg');
   }
 
