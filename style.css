@@ -90,13 +90,6 @@ header {
   header li {
     margin-left: 20px;
   }
-
-  #home {
-    height:max-content;
-    width:100vw;
-    background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75))
-  }
-
   #bio {
     background-size: cover;
     background-position: center center;
@@ -122,8 +115,8 @@ header {
   }
 
   #home iframe {
-    height: fit-content;
-    width: fit-content;
+    height: 100%;
+    width: 100%;
   }
 
   #quiz iframe {
