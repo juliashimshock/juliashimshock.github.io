@@ -122,8 +122,8 @@ header {
   }
 
   #home iframe {
-    height: auto;
-    width: auto;
+    height: fit-content;
+    width: fit-content;
   }
 
   #quiz iframe {
