@@ -60,32 +60,36 @@ function calculate(answers) {
     return songList;
 }
 
+const play = document.getElementById("player");
+
 function display(res) {
+    play.innerHTML="";
+    const vid = document.createElement('iframe');
+    vid.src = "https://www.youtube.com/embed/Bl1epz3tSSA?playlist=Bl1epz3tSSA&controls=0&mute=1&autoplay=1&loop=1"
+    play.appendChild(vid);
     const resRepl = document.getElementById("quiz");
     resRepl.innerHTML = "";
     const scr = document.createElement('h1');
     scr.textContent = "You should listen to: "
-    const list = document.createElement('ul');
     resRepl.appendChild(scr);
     res.forEach((song) => {
-        const item = document.createElement('li');
-        item.textContent = song;
-        list.appendChild(item);
+        const sn = document.createElement('h2');
+        sn.textContent = song;
+        resRepl.appendChild(sn);
         if(song === "Adir Adirim") {
             const aa = document.createElement('iframe');
             aa.src ="https://www.youtube.com/embed/2Dgt27ILk8g?controls=1&mute=0&autoplay=0";
-            list.appendChild(aa);
+            resRepl.appendChild(aa);
         } else if(song === "Ani Yeshena") {
-            const aa = document.createElement('iframe');
-            aa.src ="https://www.youtube.com/embed/xPjkCu-4H9E?controls=1&mute=0&autoplay=0";
-            list.appendChild(aa);
+            const ay = document.createElement('iframe');
+            ay.src ="https://www.youtube.com/embed/xPjkCu-4H9E?controls=1&mute=0&autoplay=0";
+            resRepl.appendChild(ay);
         } else if(song === "Aleph Bet (Hoshana)") {
-            const aa = document.createElement('iframe');
-            aa.src ="https://www.youtube.com/embed/Bl1epz3tSSA?controls=1&mute=0&autoplay=0";
-            list.appendChild(aa);
+            const ab = document.createElement('iframe');
+            ab.src ="https://www.youtube.com/embed/Bl1epz3tSSA?controls=1&mute=0&autoplay=0";
+            resRepl.appendChild(ab);
         }
     });
-    resRepl.appendChild(list);
     
 }
 /**
