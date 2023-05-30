@@ -103,8 +103,8 @@ header {
   }
 
   #quiz iframe {
-    width: 32vw;
-    height: 18vh;
+    width: 30vw;
+    height: auto;
   }
 
   button {
