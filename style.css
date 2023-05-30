@@ -119,6 +119,11 @@ header {
     width: 100%;
   }
 
+  #home {
+    height: 100%;
+    width: 100%;
+  }
+
   #quiz iframe {
     width: 448px;
     height: 252px;
