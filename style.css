@@ -112,16 +112,6 @@ header {
     height: 252px;
   }
 
-  iframe {
-    top: 0;
-    left: 0;
-  }
-
-  .player {
-    width: 100vh;
-    z-index: -1;
-  }
-
   button {
     background:#007bff;
     color: #fff;
