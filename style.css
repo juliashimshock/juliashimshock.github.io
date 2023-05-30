@@ -14,9 +14,12 @@ html, body {
     grid-gap: 20px;
   }
 
-  .overlay {
-    justify-content: center center;
-  }
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
 
   ul {
     justify-content: center;
@@ -88,7 +91,8 @@ header {
   }
 
   #home {
-    height: 700px;
+    height:100vh;
+    width:100vw;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75))
   }
 
