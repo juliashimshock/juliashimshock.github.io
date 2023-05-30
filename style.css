@@ -112,8 +112,7 @@ header {
   }
 
   #homes {
-    height: fit-content;
-    width: fit-content;
+    position: relative;
   }
 
   #quiz iframe {
