@@ -66,6 +66,7 @@ function display(res) {
     const scr = document.createElement('h1');
     scr.textContent = "You should listen to: "
     const list = document.createElement('ul');
+    resRepl.appendChild(scr);
     res.forEach((song) => {
         const item = document.createElement('li');
         item.textContent = song;
