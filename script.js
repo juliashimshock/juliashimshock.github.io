@@ -55,8 +55,11 @@ function calculate(answers) {
         songList.push("Adir Adirim");
     } if((s3aleph > s1bbb && s2yesh < s3aleph) || ((s3aleph === s1bbb && s2yesh < s3aleph) || (s2yesh === s3aleph && s2yesh > s1bbb))) {
         songList.push("Aleph Bet (Hoshana)");
+    } if(s3aleph === s2yesh && s2yesh === s1bbb) {
+        songList.push("Ani Yeshena");
+        songList.push("Adir Adirim");
+        songList.push("Aleph Bet (Hoshana)");
     }
-
     return songList;
 }
 
