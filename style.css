@@ -136,7 +136,6 @@ header {
   .video-container {
     position: relative;
     padding-bottom: 56.25%; /* Set the aspect ratio for a 16:9 video */
-    height: 0;
     overflow: hidden;
   }
   
