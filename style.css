@@ -20,7 +20,7 @@ html, body {
 
   h1 {
     font-family: "Heebo", Arial, sans-serif;
-    font-size: large;
+    font-size:xx-large !important;
   }
 
 section {
