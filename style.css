@@ -138,8 +138,8 @@ header {
     position:relative;
     top: 0;
     left: 0;
-    width: 300vw;
-    height:fit-content;
+    width: 356vw;
+    height:200vh;
     z-index: 1;
   }
 
