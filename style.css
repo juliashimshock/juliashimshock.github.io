@@ -92,8 +92,8 @@ header {
   }
 
   #home {
-    height:auto;
-    width:auto;
+    height:max-content;
+    width:100vw;
     background-image: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75))
   }
 
@@ -127,17 +127,13 @@ header {
   }
 
   #quiz iframe {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 448px;
+    height: 252px;
   }
 
   iframe {
     top: 0;
     left: 0;
-    width: 448px;
-    height: 252px;
   }
 
   button {
