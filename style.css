@@ -132,10 +132,10 @@ header {
     font: bold15px arial,sans-serif;
     text-shadow: none;
   }
-
+/*
   .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* Set the aspect ratio for a 16:9 video */
+    padding-bottom: 56.25%; /* Set the aspect ratio for a 16:9 video 
     overflow: hidden;
   }
   
@@ -146,7 +146,7 @@ header {
     width: 100%;
     height: 100%;
   }
-
+*/
   .media-grid {
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
