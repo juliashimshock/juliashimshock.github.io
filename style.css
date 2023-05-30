@@ -157,3 +157,15 @@ header {
     width: 100%;
     height: 100%;
   }
+
+  .media-grid {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 20px; 
+    margin-top: 20px;
+  }
+
+  .media-item {
+    width: 100%;
+    height: auto;
+  }
