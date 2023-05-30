@@ -117,6 +117,12 @@ header {
     left: 0;
   }
 
+  .player {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
   button {
     background:#007bff;
     color: #fff;
