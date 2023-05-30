@@ -116,17 +116,17 @@ header {
     background:#007bff;
     color: #fff;
     border-style: outset;
-    border-color: gold;
+    border-color: rgb(255, 255, 255);
     height: 30px;
     width: 75px;
     font-family: "Rubik", Arial, sans-serif;
     text-shadow: none;
   }
-  button:hover {
+  button:active {
     background:#005daa;
     color: #cccccc;
     border-style: outset;
-    border-color: gold;
+    border-color: rgb(255, 255, 255);
     height: 30px;
     width: 75px;
     font: bold15px arial,sans-serif;
